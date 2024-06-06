@@ -1,0 +1,6 @@
+create table students( username varchar(30), course varchar(30) ,paymentstatus varchar(20));
+insert into students values('Poornima Poli','MCA','yes'),
+('Haritha polishetty','MCA','yes'),
+('Prasanna Sandhu','BSC','no');
+
+select * from students;
